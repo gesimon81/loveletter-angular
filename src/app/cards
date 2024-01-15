@@ -1,0 +1,14 @@
+import { CardType } from './card-type';
+
+export const CARD_TYPES: CardType[] = [
+    { value: 0, title: 'Espionne', textEffect: 'test'},
+    { value: 1, title: 'Garde', textEffect: "Choisissez un joueur et essayez de deviner la carte qu'il a en main (excepté le Guard), si vous tombez juste, le joueur est éliminé de la manche."},
+    { value: 2, title: 'Prêtre', textEffect: "Regardez la main d'un autre joueur"},
+    { value: 3, title: 'Baron', textEffect: "Comparez votre carte avec celle d'un autre joueur, celui qui a la carte avec la plus faible valeur est éliminé de la manche"},
+    { value: 4, title: 'Servante', textEffect: 'test'},
+    { value: 5, title: 'Prince', textEffect: 'test garde'},
+    { value: 6, title: 'Chancelier', textEffect: 'test'},
+    { value: 7, title: 'Roi', textEffect: 'test garde'},
+    { value: 8, title: 'Comtesse', textEffect: 'test'},
+    { value: 9, title: 'Princesse', textEffect: 'test garde'}
+]
